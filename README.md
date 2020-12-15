@@ -34,3 +34,25 @@ Self written lucid Notes in the field of Data-mining and Business Intelligence.
 * Velocity
 * Variety
 * Veracity
+
+### Large Data Mining Vs. Big Data Mining
+
+* Entire Dataset from single source: Large Data
+* Entire Dataset from different sources
+
+### Big Data Sources:
+
+* Sensor data and IOT
+* Social Media 
+
+### What is Data Mining?
+
+Data mining refers to extraction or mining of "knowledge" from large amount of data or KDD (Knowledge Discovery from Databases)
+
+Involves AI, ML and Statistics
+
+Data -> Knowledge -> Action -> Goal
+
+Example: Netflix gathers user ratings from users (data), decide what type of movies they like (knowledge), recommend new movies (action) and so that customers stay with netflix (goal).
+
+Other examples: Cancer data, road traffic etc.
