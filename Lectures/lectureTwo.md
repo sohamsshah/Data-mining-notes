@@ -1,4 +1,4 @@
-# Lecture Two
+# lectureTwo
 
 ## Data Mining Functionalities
 * Descriptive
