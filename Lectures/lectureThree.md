@@ -49,4 +49,12 @@ These techniques can be described based on *degree of user interaction*. Example
 
 ### Data Mining Architecture:
 
-![img](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.javatpoint.com%2Fdata-mining-architecture&psig=AOvVaw0FRYyUPJqGPgKsGByAWU0R&ust=1608362516053000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNi45rX_1u0CFQAAAAAdAAAAABAD)
+<img src="https://static.javatpoint.com/tutorial/data-mining/images/data-mining-architecture.png">
+
+### EXTRA: Super Market Analysis:
+* IF Maggi and Coffee are purchased together and we retrieve it using association rule, then we can:
+  1. Keep them together in a rack
+  2. Give it a combo with a third item that is lesser sold
+  3. Inventory Management
+  
+
