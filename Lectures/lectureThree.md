@@ -1,6 +1,6 @@
 # lectureThree
 
-### Classification according to the knowledge to be mined:
+### Classification according to the knowledge to be mined (output):
 * Characterization:We can do characterization based on statistical values such as mean, mode, median etc. Extract whatever possible from data to maximum.
 
 * Discrimination: We can discriminate based on some parameter and divide according to the requirement. Example: Divide data to equal parts, distribute according to a criterea etc.
@@ -19,3 +19,34 @@
     1. Fraud Detection (in Bank Transaction etc.). I usually use credit card for small transaction.     And if suddenly I use it for 50K, it is an outlier!
     2. Gesture Recognition. Some unusal gesture identification
     3. Online examination with videograpy. Gesture Recognition for Fraud Detection
+ 
+
+### Classification based on Techniques (processing):
+These techniques can be described based on *degree of user interaction*. Example: autonomous systems, query-driven systems
+
+* Methods of Data Analysis employed: Example - ML, stats, visualizations, pattern recogntion, NN, DB oriented, Data Warehouse, Data intensive, OLAP
+
+### Classification based on Applications adapted:
+* Retail
+* Telecommunication
+* Banking
+* Fraud Analysis
+* Stock Market
+* Text Mining
+* Web Mining
+
+### On which kind of Data?
+
+* Relational Data: It is a collection of interrated data and aset of software programs to access and manage data. Eg. SQL etc.
+
+* Data Warehouse: Repository of information collected from multiple sources
+  Constructed via Data Cleaning, transformation etc.
+  
+* Transactional Database: In temporal Database - we need Date and Time. While in Transaction Database, we need transaction_id. Each represents a transaction. Eg. Online Shopping etc.
+
+* Other Data: Spatial Data, Engineering Design Data, Image Data, HTML etc.
+  *Content Based Image Retrieval: It retrieves the Image based on content queried.*
+
+### Data Mining Architecture:
+
+![img](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.javatpoint.com%2Fdata-mining-architecture&psig=AOvVaw0FRYyUPJqGPgKsGByAWU0R&ust=1608362516053000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNi45rX_1u0CFQAAAAAdAAAAABAD)
