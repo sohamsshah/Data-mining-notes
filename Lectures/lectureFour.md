@@ -50,10 +50,23 @@ Process:
   * New kinds of methods: Based on Domain requirement on same database in different ways and require the development of numerous data mining techniques
   * Multidimensional Data space: Complex dataset and large volume
   * Interdisciplinary Effort: Requires wide knowledge of various disciplines which is required
-  * 
 2. User Interraction
+  * Interactive Mining: Flexible user interface and make an exploratory mining environment
+  * Incorporation of Background Knowledge: External domain knowledge, constraints, rules and              information should be incorporated.
+  * Presentation and visualization of data mining results: Must be human-friendly and vivid and flexible
 3. Efficiency and Scalability
+  * Algorithm: Efficient and scalable in order to extract from huge data. It should be fast, running time and acceptable by applications.
+  * Parallel, distributed and incremental mining algorithms: Computational complexity issues and wide distribution of data
+    
 4. Diversity of Database types 
+  * Handling complex types of data: Streams, time series,graph, social network and multirelational data.
+  * Mining dynamic, networked and global data repositories: Discovery of knowledge from structured, unstructured and semi-structured data. Web mining, multisource data mining, information network mining
+  
+5. Data Mining on Society
+  * Privacy-preserving data mining
+  * Cyber attacks
+  * Social Impacts
+  * Invisible Data Mining (the users are unaware of this data collection)
 
 
 
