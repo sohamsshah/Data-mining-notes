@@ -35,12 +35,25 @@ Knowledge base:
 * Eg. user beliefs etc.
 
 ### KDD (Knowledge Discovery in Databases):
-
 Process:
-1. Selection of target data
-2. Preprocessing (Remove noise and inconsistent Data)
+1. Selection of target data (Data relavent to the analysis task are retrieved from DB)
+2. Preprocessing 
+  i. Data Cleaning- Remove noise and inconsistent Data
+  ii. Data Integration - Where multiple data sources may be combined
 3. Transformation (approximate for mining by performing aggregation operations) As an example - To make it in same range - Normalize the Data.
 4. Data Mining: Apply intelligent methods and algorithms to extract data patterns.
 5. Visualization and Knowledge Representation by various techniques.
+
+### Issues with Data Mining:
+
+1. Mining Methodology
+  * New kinds of methods: Based on Domain requirement on same database in different ways and require the development of numerous data mining techniques
+  * Multidimensional Data space: Complex dataset and large volume
+  * Interdisciplinary Effort: Requires wide knowledge of various disciplines which is required
+  * 
+2. User Interraction
+3. Efficiency and Scalability
+4. Diversity of Database types 
+
 
 
