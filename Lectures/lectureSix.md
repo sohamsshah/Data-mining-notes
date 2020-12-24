@@ -29,3 +29,25 @@
   3. Interval Attribute: It comes in form of numerical value where difference between points is meaningful. Eg. Temperature: 10-20, 30-40 etc. It doesnot have true zero.
   4. Ratio: It looks like interval attribute, but it has true value. Eg. weight. It has absolute zero.
   
+### DATA PREPROCESSING TASKS
+
+Data Cleaning -> Data Integration -> Data Reduction -> Data Transformation
+
+
+### FILLING MISSING VALUES:
+
+* Never ever delete the data.
+* Can Fill it with Mean
+* Can Fill it with Median
+* Can Fill it with Mode
+
+But filling strategy must be decided based on Dataset.
+
+### EXAMPLE: 
+
+For example if there is Dataset having Salary and Age params. If we fill with Mean or Median values, the age=30 and age=60 will get same value. Which is logically incorrect to put.
+
+So, other technique for instance that can be used is: Put data in range form.
+
+Eg. if there is missing value for salary at age=30 and age=60. We can convert data in range. For example, consider average of all salary values in age range 10-20, 20-30, 30-40 and so on. So, even there is missing value in the range for salary, we are taking average only so it gets compensated. In this way we can have unique and filled values for all age groups in the dataset.
+
