@@ -1,6 +1,6 @@
 # lectureEight
 
-* Data Cleaning
+* __Data Cleaning__
 
   * Fill missing values
     1. Ignore Tuple
@@ -21,11 +21,11 @@
 
 ### Fill Missing Values
 
-* Ignore the tuple (record/row):
+* __Ignore the tuple (record/row)__:
   - Usually done only when __class label__ is missing.
   - Eg. task is to distinguish between "Spam" and "Not Spam"; it class lable is missing then it must be discarded.
 
-* Fill missing value manually:
+* __Fill missing value manually__:
   - Use mean to filling missing value. Also can use attribute mean for all samples belonging to same class. 
   - Fill missing values automatically.
     a. By making use of learning algoirthm such as Naive Bayes, Decision tree etc.
@@ -33,7 +33,7 @@
 
 ### Identify outliers and smooth out noisy data
 
-* Binning method:
+* __Binning method__:
   - Data Binning or Bucketing is a data preprocessing technique used to reduce effects of minor observation errors.
   - Here we divide into different class ranges; based on the range of the data and data density.
   - We must find minimum and maximum value for the range.
@@ -53,7 +53,18 @@
   * It can be applied recursively to resulting partitions to generate concept hierarchies.
   * It doesnt use class information; and therefor it is __unsupervised discretization technique__.
     
-* Clustering:
+* __Clustering__:
   * Clustering is a process of partitioning a set of data into a set of meaningful sub-classes called clusters.
+  * Enables abstraction of large amounts of data by forming meaningful groups or category.
+  
+  
+### Correct Inconsistent Data:
+
+ * It contains similarity in codes or names.
+ * We can use stemming etc. to check for grammar, names etc.
+ 
+### Resolve Data Redundancy:
+ * Database normalization prevents reduncdancy.
+ * Also appropriate use of foreign keys can help to reduce it.
     
     
