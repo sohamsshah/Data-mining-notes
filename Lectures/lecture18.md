@@ -33,3 +33,18 @@
 * Categorizing news stories as finance, weather, entertainment, sports etc.
 * Identify individuals with credit risks (high, low, medium, unknown etc. multiclass)
 
+### Example of a Decision Tree
+![image](https://user-images.githubusercontent.com/47717492/109914437-ff6ace00-7cd5-11eb-991a-b09134ca5872.png)
+- In Decision Tree we have Tree Induction Algorithm for classification.
+
+### Classification as a two step process
+
+1. Model Construction: Training Data -> Classification Algorithms -> Generate Classifier Model 
+  * Descrive a set of predetermined classes
+  * Set of tuples used for model construction are called Training Set.
+  * Model = Classification Rules || Mathematical Formulae || Decision Trees
+2. Model Usage: Testing Data -> Classifier -> Unseen Data -> Predict
+  * For classifying future unknown objects
+  * Estimate accuracy of the model
+  * Known Label of test sample is compared with classified result from the model
+
